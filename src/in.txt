@@ -1,0 +1,13 @@
+// start
+// commnet
+
+
+/*
+
+comment
+
+*/
+
+    str
+
+// end
