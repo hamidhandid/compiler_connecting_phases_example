@@ -11,9 +11,9 @@ public class Main {
         String tableAddress = "src/parser/table.npt";
         CompilerScanner scanner = new CompilerScanner(new FileReader(inputAddress));
         CodeGenerator codeGenerator = new CodeGenerator(scanner);
-//        Parser parser = new Parser(scanner, codeGenerator, tableAddress);
-//        For debugging parser, use bellow
         Parser parser = new Parser(scanner, codeGenerator, tableAddress);
+        // For debugging parser, use bellow
+        // Parser parser = new Parser(scanner, codeGenerator, tableAddress, true);
         parser.parse();
     }
 }
